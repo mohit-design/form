@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- SignIn Form Section CSS Starts -------*/
+	
+	.panel-sign-in { width: 50%; }
+	
+	/*------- SignIn Form Section CSS Ends -------*/	
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+	/*------- SignUp Form Section CSS Starts -------*/
+
+	.bg-sign-up { padding: 30px; }
+	.form-sign-up-center { display: block; height: auto; }
+	.panel-sign-up { margin: 0 auto; width: 75%; }
+
+	/*------- SignUp Form Section CSS Ends -------*/
+
+	/*------- SignIn Form Section CSS Starts -------*/
+
+	.bg-sign-in { height: 100%; }
+	.panel-sign-in { width: 50%; }
+
+	/*------- SignIn Form Section CSS Ends -------*/	
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*------- SignUp Form Section CSS Starts -------*/
+
+	.bg-sign-up,
+	.bg-sign-in { padding: 15px; }
+	.form-sign-up-center { display: block; height: auto; }
+	.panel-sign-up-heading > h2, 
+	.panel-sign-in-heading > h2 { font-size: 2.4rem; }
+	.form-sign-up-addon { font-size: 1.6rem; }
+
+	/*------- SignUp Form Section CSS Ends -------*/
+
+	/*------- SignIn Form Section CSS Starts -------*/
+
+	.bg-sign-in { height: 100%; }
+	.panel-sign-in { width: 100%; }
+
+	/*------- SignIn Form Section CSS Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+	/*------- SignIn Form Section CSS Starts -------*/
+
+	.bg-sign-in { height: auto; }
+	.form-sign-in-center { display: block; height: auto; }
+
+	/*------- SignIn Form Section CSS Ends -------*/
+
+}

@@ -1,0 +1,104 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Barlow-Light"; src: url("../fonts/Barlow-Light.otf"); }
+@font-face { font-family: "Barlow-Medium"; src: url("../fonts/Barlow-Medium.otf"); }
+@font-face { font-family: "Barlow-Regular"; src: url("../fonts/Barlow-Regular.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { font-size: 10px; letter-spacing: 1px; }
+a,
+a:hover,
+a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+h2,
+p,
+form { margin: 0; padding: 0; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- SignUp Form Section CSS Starts -------*/
+
+.bg-sign-up { background: #FC5C7D; background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); background: linear-gradient(to right, #6A82FB, #FC5C7D); }
+.form-sign-up-center,
+.form-sign-in-center { align-items: center; display: flex; height: 100%; justify-content: center; }
+.panel-sign-up,
+.panel-sign-in { box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); -o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); }
+.panel-sign-up-heading > h2,
+.panel-sign-in-heading > h2 { background-color: #272727; border-radius: 14px 14px 0 0; -webkit-border-radius: 14px 14px 0 0; -moz-border-radius: 14px 14px 0 0; -ms-border-radius: 14px 14px 0 0; -o-border-radius: 14px 14px 0 0; color: #fff; font: 3rem/1.42857143 "Barlow-Medium"; padding: 15px; text-align: center; text-transform: uppercase; }
+.panel-sign-up-body { background-color: #fff; padding: 30px; }
+.form-sign-up-input-group,
+.form-sign-in-input-group { margin-bottom: 30px; }
+.form-sign-up-control,
+.form-sign-in-control { background-color: #272727; border: 0; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #fff; height: 40px; font: 1.6rem/1.42857143 "Barlow-Light"; letter-spacing: 1px; }
+.form-sign-up-control::placeholder { color: #fff; opacity: 1; }
+.form-sign-up-control:-ms-input-placeholde { color: #fff; }
+.form-sign-up-control::-ms-input-placeholder { color: #fff; }
+.form-sign-up-addon,
+.form-sign-in-addon { background-color: #a0a1ff4a; border: 0; color: #272727; font-size: 1.8rem; }
+.form-sign-up-control:focus { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+	
+	/*------- Custom Checkbox CSS Starts -------*/
+
+input[class="terms-service"] { display: none; }
+.label-terms-service { margin-bottom: 30px; padding-left: 35px; position: relative; }
+input[class="terms-service"] + label { background-color: #272727; display: block; height: 20px; left: 0; margin-bottom: 0; position: absolute; top: 0; width: 20px; }
+input[class="terms-service"] + label:after { border-width: 0 3px 3px 0; border-color: #fff; border-style: solid; content: ""; display: none; height: 10px; width: 6px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%) rotate(45deg); -webkit-transform: translate(-50%,-50%) rotate(45deg); -moz-transform: translate(-50%,-50%) rotate(45deg); -ms-transform: translate(-50%,-50%) rotate(45deg); -o-transform: translate(-50%,-50%) rotate(45deg); }
+input[class="terms-service"]:checked + label { background-color: #fc5c7d; }
+input[class="terms-service"]:checked + label:after { display: block; }
+.label-terms-service > p { color: #272727; font: 1.6rem/1.1 "Barlow-Regular"; }
+
+	/*------- Custom Checkbox CSS Ends -------*/
+
+	/*------- Common Button CSS Starts -------*/
+
+.btn { border: 0; font-family: "Barlow-Light"; letter-spacing: 1px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.btn:focus,
+.btn:active,
+.btn:active:focus { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+
+	/*------- Common Button CSS Ends -------*/
+
+.btn-sign-up { background-color: #ff4b5a; font-size: 1.8rem; color: #fff; margin-bottom: 15px; }
+.btn-sign-up:hover,
+.btn-sign-up:active:hover { box-shadow: inset 0 44px 0 0 #272727; -webkit-box-shadow: inset 0 44px 0 0 #272727; -moz-box-shadow: inset 0 44px 0 0 #272727; -ms-box-shadow: inset 0 44px 0 0 #272727; -o-box-shadow: inset 0 44px 0 0 #272727; color: #fff; }
+.btn-sign-up:focus,
+.btn-sign-up:active:focus { box-shadow: inset 0 0 0 0 #272727; -webkit-box-shadow: inset 0 0 0 0 #272727; -moz-box-shadow: inset 0 0 0 0 #272727; -ms-box-shadow: inset 0 0 0 0 #272727; -o-box-shadow: inset 0 0 0 0 #272727; color: #fff; }
+.already-acc,
+.do-acc { color: #272727; font: 1.6rem/1.42857143 "Barlow-Regular"; text-align: center; }
+.already-acc > a,
+.do-acc > a { color: #ff4b5a; }
+
+/*------- SignUp Form Section CSS Ends -------*/
+
+/*------- SignIn Form Section CSS Starts -------*/
+
+.panel-sign-in { position: relative; width: 35%; z-index: 1; }
+.panel-sign-in-heading > h2 { background-color: #fff; color: #272727; }
+.panel-sign-in-body { background: -webkit-linear-gradient(top,#7579ff,#b224ef); background: -o-linear-gradient(top,#7579ff,#b224ef); background: linear-gradient(top,#7579ff,#b224ef); padding: 30px; }
+.form-sign-in-control { background-color: #fff; color: #272727; }
+.form-sign-in-control::placeholder { color: #272727; opacity: 1; }
+.form-sign-in-control:-ms-input-placeholder, { color: #272727; }
+.form-sign-in-control::-ms-input-placeholder { color: #272727; }
+.form-sign-in-addon { background-color: #ffffff4a; color: #fff; }
+.btn-sign-in { background-color: #fff; font-size: 1.8rem; color: #272727; margin-bottom: 15px; }
+.btn-sign-in:hover,
+.btn-sign-in:active:hover { box-shadow: inset 0 44px 0 0 #272727; -webkit-box-shadow: inset 0 44px 0 0 #272727; -moz-box-shadow: inset 0 44px 0 0 #272727; -ms-box-shadow: inset 0 44px 0 0 #272727; -o-box-shadow: inset 0 44px 0 0 #272727; color: #fff; }
+.btn-sign-in:focus,
+.btn-sign-in:active:focus { box-shadow: inset 0 0 0 0 #272727; -webkit-box-shadow: inset 0 0 0 0 #272727; -moz-box-shadow: inset 0 0 0 0 #272727; -ms-box-shadow: inset 0 0 0 0 #272727; -o-box-shadow: inset 0 0 0 0 #272727; color: #272727; }
+.do-acc { color: #fff; }
+.do-acc > a { color: #272727; }
+
+	/*------- Canvas CSS Starts -------*/
+
+	.particles-js-canvas-el { height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+
+	/*------- Canvas CSS Ends -------*/
+
+/*------- SignIn Form Section CSS Ends -------*/
